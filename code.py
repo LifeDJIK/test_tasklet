@@ -12,4 +12,6 @@ def execute(context, cleanup_directories):  # pylint: disable=R0914,R0912,R0915
     log.info("Tasklet code started")
     log.info("Args: %s", context.args)
     #
+    raise ValueError("My fault")
+    #
     return 42
