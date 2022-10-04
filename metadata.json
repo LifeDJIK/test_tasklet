@@ -1,5 +1,5 @@
 {
   "module_name": "task",
   "subpath": "",
-  "libs": ["test_git"]
+  "libs": []
 }

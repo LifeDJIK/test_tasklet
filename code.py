@@ -10,3 +10,4 @@ def execute(context, cleanup_directories):  # pylint: disable=R0914,R0912,R0915
     _ = context, cleanup_directories
     #
     log.info("Tasklet code started")
+    log.info("Args: %s", context.args)
